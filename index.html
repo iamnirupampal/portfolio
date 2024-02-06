@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./assets/Titlelogo.avif">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Nirupam Pal</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Nirupam</h1>
+        <ul id="lists">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul id="lists2">
+            <li><a onclick="homehide()" href="#hero">Home</a></li>
+            <li><a onclick="homehide()" href="#about">About</a></li>
+            <li><a onclick="homehide()" href="#Works">Works</a></li>
+            <li><a onclick="homehide()" href="#contact">Contact</a></li>
+        </ul>
+        <div id="menubtn" onclick="btnchange()">
+            <i class='bx bx-menu'></i>
+        </div>
+        <div id="menucut" onclick="btnchanger()">
+            <i class='bx bx-x'></i>
+        </div>
+    </nav>
+    <section id="hero" class="hero">
+        <div class="content">
+            <h1>
+                Hi I am Nirupam Pal
+            </h1>
+            <h1>
+                A Frontend Developer
+            </h1>
+            <p>
+                I am Nirupam Pal, a frontend developer skilled in HTML, CSS, JS, Tailwind, and ReactJS. I specialize in
+                crafting seamless and responsive user interfaces, combining technical proficiency with a keen eye for
+                design to bring ideas to life.
+            </p>
+            <div class="social">
+                <div class="left">
+                    <h1>Follow Me</h1>
+                    <div class="top">
+                        <a id="facbooklogo" href="https://www.facebook.com/profile.php?id=61555689837333"><i
+                                class='bx bxl-facebook-circle'></i></a>
+                        <a id="instalogo" href="https://www.instagram.com/i_am_nirupampal/"><i
+                                class='bx bxl-instagram-alt'></i></a>
+                        <a id="githublogo" href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                        <a id="linkdlogo" href="https://www.linkedin.com/in/nirupam-pal-0916a721b/"><i
+                                class='bx bxl-linkedin-square'></i></a>
+                    </div>
+
+                </div>
+                <div class="right">
+                    <a href="mailto:iamnirupampal@gmail.com"><i class='bx bxs-envelope'></i>Mail Me</a>
+                </div>
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/Nirupam.jpg" alt="Nirupam">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h1>About Me</h1>
+        <div class="aboutcontent">
+
+            <div class="left">
+                <div class="skills">
+                    <span class="html"><i class='bx bxl-html5'></i></span>
+                    <div class="percent"></div>
+                </div>
+                <div class="skills">
+                    <span class="css"><i class='bx bxl-css3'></i></span>
+                    <div class="percent2"></div>
+                </div>
+                <div class="skills">
+                    <span class="js"><i class='bx bxl-javascript'></i></span>
+                    <div class="percent3"></div>
+                </div>
+                <div class="skills">
+                    <span class="reactjs"><i class='bx bxl-react'></i></i></span>
+                    <div class="percent4"></div>
+                </div>
+            </div>
+            <div class="right">
+                <p>
+                    I'm Nirupam Pal, a dynamic frontend developer with expertise in HTML, JavaScript, and CSS.
+                    Proficient in crafting seamless user experiences, I specialize in React.js and employ Tailwind CSS
+                    for elegant styling.
+                </p>
+                <p>
+                    My problem-solving skills ensure innovative solutions, and I excel in
+                    responsive design for optimal functionality across devices. With a keen eye for detail, I bring
+                    creativity to every project, aiming not just to meet but exceed expectations.
+                </p>
+                <p>
+                    A collaborative teamplayer, I thrive on continuous learning, staying abreast of industry trends.
+                    Let's transform your
+                    digital vision into reality with my passion for creating captivating web experiences.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="Works" class="Works">
+        <h1>Works</h1>
+        <div class="projects">
+            <div class="cards">
+                <img src="/assets/Screenshot (2).png" alt="Project">
+                <h2>Portfolio Website</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/assets/Project2.jpeg" alt="Project">
+                <h2>Facbook Clone</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/assets/Event Page.jpg" alt="Project">
+                <h2>Event Website</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/assets/Blog.jpg" alt="Project">
+                <h2>Blog Website</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/assets/Edu-School-Website-Template-1-scaled.jpg" alt="Project">
+                <h2>Educational Website</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="/assets/E commerce.avif" alt="Project">
+                <h2>E-Commerce Website</h2>
+                <div class="actioncard">
+                    <a href="https://github.com/iamnirupampal">Live Preview</a>
+                    <a href="https://github.com/iamnirupampal"><i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h1>Contact Me</h1>
+        <div class="contactme">
+            <div class="contactleft">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="73e4909e-b532-4f2f-950a-5a0426c21acd">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" required>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" required>
+                    <label for="message">Enter Your Message</label>
+                    <textarea name="message" required></textarea>
+                    <button type="submit">Submit Form</button>
+
+                </form>
+            </div>
+            <div class="contactright">
+                <h2>You Can Follow Me On</h2>
+                <a id="facbooklogo2" href="https://www.facebook.com/profile.php?id=61555689837333"><i
+                        class='bx bxl-facebook-circle'></i>Nirupam Pal</a>
+                <a id="instalogo2" href="https://www.instagram.com/i_am_nirupampal/"><i
+                        class='bx bxl-instagram-alt'></i>i_am_nirupampal</a>
+                <a id="githublogo2" href="https://github.com/iamnirupampal"><i
+                        class='bx bxl-github'></i>iamnirupampal</a>
+                <a id="linkdlogo2" href="https://www.linkedin.com/in/nirupam-pal-0916a721b/"><i
+                        class='bx bxl-linkedin-square'></i>Nirupam Pal</a>
+                <h2>Mail Me</h2>
+                <a id="Mail" href="mailto:iamnirupampal@gmail.com"><i
+                        class='bx bxs-envelope'></i>iamnirupampal@gmail.com</a>
+            </div>
+        </div>
+    </section>
+    <footer style="background-color: #000000; color: #fff; padding: 20px; text-align: center;">
+        <p>&copy; 2024 iamnirupampal.netlyfy.app . All rights reserved.</p>
+        <p>Contact: iamnirupampal@gmail.com | Follow us: <a href="https://twitter.com/Nirupam80733496"
+                target="_blank">Twitter</a></p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+
+</html>
