@@ -116,6 +116,7 @@ nav>h1:hover{
     background-image: url(assets/pexels-francesco-ungaro-998641.jpg);
     background-position: center;
     background-size: cover;
+    background-repeat: repeat;
 }
 
 .content {
