@@ -69,16 +69,21 @@ ul li a {
 }
 
 ul li a:hover {
-    color: rgb(93, 57, 255);
+    color: #5cf4ff;
     font-weight: 600;
 }
 
 nav>h1 {
-    font-family: 'Rancho', cursive;
-    font-size: 2rem;
-    letter-spacing: 2px;
+    /* font-family: 'Rancho', cursive; */
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
     cursor: pointer;
-    color: #cdc7ff;
+    color: #5cf4ff;
+    transition: all ease .3s;
+}
+nav>h1:hover{
+    letter-spacing: 3px;
 }
 
 #menubtn {
@@ -100,7 +105,7 @@ nav>h1 {
 }
 
 .hero {
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -108,13 +113,18 @@ nav>h1 {
     padding-top: 20vh;
     padding-left: 60px;
     padding-right: 60px;
+    background-image: url(assets/pexels-francesco-ungaro-998641.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 .content {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+    padding-bottom: 20px;
 }
 
 .content h1 {
@@ -286,8 +296,8 @@ nav>h1 {
 }
 
 .left>.skills:hover {
-    box-shadow: 0 0 40px 2px #0640ffda;
-    padding: 15px 10px;
+    box-shadow: 0 0 40px 0 #0640ffda;
+    transform: translateX(10px);
     cursor: pointer;
 }
 
@@ -495,11 +505,17 @@ nav>h1 {
     width: 40%;
     display: flex;
     align-items: center;
+    transition: all ease .3s;
+}
+.contactright a:hover{
+    transform: translateX(10px);
+    
 }
 
 .contactright a i {
     font-size: 1.5rem;
     margin-right: 10px;
+
 }
 
 #facbooklogo2 i {
@@ -507,13 +523,15 @@ nav>h1 {
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
+    border: 2px solid #002fff;
 }
 
 #instalogo2 i {
-    color: #ff0055;
+    color: #ff0000;
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
+    border: 2px solid #ff0000;
 }
 
 #githublogo2 i {
@@ -521,13 +539,15 @@ nav>h1 {
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
+    border: 2px solid #000000;
 }
 
 #linkdlogo2 i {
-    color: #002fff;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #002fff;
     padding: 5px;
     border-radius: 50%;
+    border: 2px solid #ffffff;
 }
 
 #Mail i {
@@ -535,6 +555,7 @@ nav>h1 {
     background-color: #ffffff;
     padding: 5px;
     border-radius: 50%;
+    border: 2px solid #fc2424;
 }
 
 
@@ -561,6 +582,13 @@ textarea {
     font-weight: 600;
     font-size: 1rem;
     border-radius: 4px;
+    resize: none;
+    outline: none;
+    box-shadow:  0 0 6px 0 #00be5f;
+}
+textarea{
+height: 120px;
+font-size: .8rem;
 }
 
 button {
@@ -570,6 +598,11 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
 }
 
 button:hover {
@@ -607,6 +640,13 @@ button:hover {
     .about {
         padding-top: 10vh;
 
+    }
+    .image img {
+        height: 400px;
+        width: auto;
+        border-radius: 38px;
+        box-shadow: 0 0 100px 2px #8f06ff52;
+        transition: all .2s linear;
     }
 
     .projects {
