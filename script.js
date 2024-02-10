@@ -44,7 +44,7 @@ gs.from("nav h1",{
     duration:.2,
 
 })
-gs.from("#lists li",{
+gs.from("#lists li, #menubtn ",{
     y : -100,
     stagger: .2,
     duration: .2,
