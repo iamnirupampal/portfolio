@@ -74,16 +74,11 @@ ul li a:hover {
 }
 
 nav>h1 {
-    /* font-family: 'Rancho', cursive; */
     font-family: 'Poppins',sans-serif;
     font-size: 1.5rem;
     letter-spacing: 1px;
     cursor: pointer;
     color: #5cf4ff;
-    transition: all ease .3s;
-}
-nav>h1:hover{
-    letter-spacing: 3px;
 }
 
 #menubtn {
@@ -116,7 +111,7 @@ nav>h1:hover{
     padding-right: 60px;
     background-image: url(assets/pexels-francesco-ungaro-998641.jpg);
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     background-repeat: repeat;
 }
 
